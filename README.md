@@ -38,6 +38,7 @@ All essential configurations for using this boilerplate are conveniently organiz
 1. Clone this repository to your local machine:
 ```bash
 git clone https://github.com/gabrielstoica/hardhat-upgrades
+git clone git@github.com:yihsiulee/hardhat-upgrades.git
 ```
 2. Change directory to the cloned project:
 ```bash
@@ -54,7 +55,7 @@ yarn hardhat compile
 ```
 6. Deploy the Box contract to a testnet or mainnet using the `deploy.ts` script:
 ```bash
-yarn hardhat run scripts/deploy.ts --network YOUR_NETWORK
+yarn hardhat run scripts/deploy.ts --network YOUR_NETWORK(sepolia)
 ```
 
 ## Contributing
